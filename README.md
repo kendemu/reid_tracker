@@ -1,10 +1,13 @@
 ## reid_tracker
 Zero-shot ReID baased human tracker for service robots. It can retrack missing human from the camera frame.  
 It creates human identity gallary then do a ranking based system.  
+It directly gets the camera devices since the sensor_msgs/Image transport on ROS2 is laggy and not viable like ROS1 transport.  
 
 Body Feature Extraction:  
 1. DINOv3 : Body Part Feature
 2. SFace : Facial Feature  
+
+The technical details are explained on this poster  
 
 Please get the following ONNX File from the below link   
 
